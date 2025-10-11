@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-image: url('./assets/shippingbackground.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+#brand-logo {
+    height: auto; /* Auto Height maintains the same aspect ratio */
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#brand-logo:hover {
+    transform: translateY(-5px);
+}
+
+#main-img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#nav {
+    font-size: 1.2em;
+}
+
+.navbar.sticky-top {
+    backdrop-filter: blur(5px);
+}
+
+.hero-container{
+    color: black;
+    margin: auto;
+    padding: 150px;
+}
+
+#btn-hero-aboutus {
+    color: white;
+    background-color: orange;
+    border: 0;
+    transition: all 0.3s ease;
+}
+
+#btn-hero-aboutus:hover {
+    background-color: rgb(247, 199, 112);
+    transform: translateY(-2px);
+}
+
+#btn-hero-services {
+    color: white;
+    background-color: black;
+    border: 0;
+    transition: all 0.3s ease;
+}
+
+#btn-hero-services:hover {
+    background-color: rgb(46, 46, 46);
+    transform: translateY(-2px);
+}
+
+#hero-header {
+    font-size: 4em;
+}
+
+#btn-nav-contact {
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}
+
+#btn-nav-contact:hover {
+    background-color: rgb(247, 199, 112);
+}
+
+.card {
+    transition: all 0.3s ease;
+    text-align: center;
+    background-color: orange;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#service-image {
+    border-radius: 10px;
+}
+
+#aboutus-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+#about-us-title {
+    color: orange;
+}
+
+.about-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#message {
+    padding-bottom: 100px;
+}
+
+#btn-send {
+    color: white;
+    background-color: orange;
+    border: 0;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+#btn-send:hover {
+    background-color: rgb(247, 199, 112);
+}
