@@ -143,3 +143,19 @@ body {
 #btn-send:hover {
     background-color: rgb(247, 199, 112);
 }
+
+/* mobile responsiveness */
+@media (max-width: 768px) {
+    #hero-header {
+        font-size: 2.5em;
+        line-height: 1.2;
+    }
+
+    .hero-container {
+        padding: 50px 20px;
+    }
+
+    .about-image {
+        height: auto;
+    }
+}
