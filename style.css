@@ -68,7 +68,7 @@ body {
 }
 
 #btn-hero-services:hover {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(65, 65, 65);
     transform: translateY(-2px);
 }
 
@@ -84,6 +84,16 @@ body {
 
 #btn-nav-contact:hover {
     background-color: rgb(247, 199, 112);
+}
+
+#btn-nav-login {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#btn-nav-login:hover {
+    background-color: rgb(65, 65, 65);
 }
 
 .card {
