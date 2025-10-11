@@ -115,6 +115,7 @@
     <section class="container-fluid pb-5" id="aboutus-section">
       <h2 class="text-center display-2 p-4 text-white">About Us</h2>
       <div class="container">
+        
         <!--Section 1-->
           <div class="row g-0 flex-row-reverse align-items-center">
               <div class="col-md-4">
@@ -145,12 +146,18 @@
 
   <!--Contact Section-->
   <div class="container-fluid hero-container bg-white" id="contact-section">
+    <div id="liveAlertPlaceholder">
+      <div class="alert alert-success alert-dismissible d-none" role="alert" id="messageAlert">
+        Message sent!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
     <h2 class="text-center display-2 text-black">Contact Us</h2>
     <form>
       <div class="mb-3">
 
         <label for="name" class="form-label">Name</label>
-        <input type="email" class="form-control" id="name">
+        <input type="text" class="form-control" id="name">
       </div>
 
       <div class="mb-3">
@@ -169,7 +176,7 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Subscribe to our newsletter</label>
       </div>
-      <button type="submit" class="btn btn-primary" id="btn-send">Send</button>
+      <button type="button" class="btn btn-primary" id="btn-send">Send</button>
     </form>
   </div>
 
@@ -179,6 +186,21 @@
     </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('btn-send').addEventListener('click', (e) => {
+      e.preventDefault();
+      document.getElementById('messageAlert').classList.remove('d-none');
+
+      //Clear form
+      document.getElementById('name').value = '';
+      document.getElementById('exampleInputEmail').value = '';
+      document.getElementById('message').value = '';
+      document.getElementById('exampleCheck1').checked = false;
+    })
+    
+  </script>
+
 </body>
 
 </html>
