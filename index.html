@@ -35,6 +35,9 @@
                     <a class="nav-link me-3" aria-current="page" href="#aboutus-section">About Us</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link me-3" aria-current="page" href="#how-it-works-section">How It Works</a>
+              </li>
+                <li class="nav-item">
                     <a class="nav-link me-3 mb-2" aria-current="page" href="#contact-section" id="btn-nav-contact">Contact</a>
                 </li>
                 <li class="nav-item">
@@ -71,7 +74,7 @@
         <div class="card col-10 col-md-6 col-lg-4 p-4 rounded-5">
           <img src="./assets/express_shipping.jpg" alt="service image" id="service-image">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title display-6 fw-bold">Express International Shipping</h5>
+            <h1 class="card-title display-6 fw-bold">Express International Shipping</h1>
             <p class="card-text flex-grow-1">Shopping online has been made easier, register today for your free shipping address</p>
           </div>
         </div>
@@ -79,7 +82,7 @@
         <div class="card col-10 col-md-6 col-lg-4 p-4 rounded-5">
           <img src="./assets/barrell.jpg" alt="service image" id="service-image">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title display-6 fw-bold">Barrels</h5>
+            <h1 class="card-title display-6 fw-bold">Barrels</h1>
             <p class="card-text flex-grow-1">Thinking about shipping a barrel? We have you covered</p>
           </div>
         </div>
@@ -87,7 +90,7 @@
         <div class="card col-10 col-md-6 col-lg-4 p-4 rounded-5">
           <img src="./assets/freight.png" alt="service image" id="service-image">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title display-6 fw-bold">Freight Services</h5>
+            <h1 class="card-title display-6 fw-bold">Freight Services</h1>
             <p class="card-text flex-grow-1">Reliable freight solutions for industrial and commercial cargo</p>
           </div>
         </div>
@@ -139,17 +142,17 @@
                 <h5 class="display-3 fw-bold text-start pb-4" id="about-us-title">Why choose us?</h5>
                 <div class="row">
                   <div class="col-12 col-md-6 col-lg-4">
-                    <h5 class="fw-bold display-6">Email Notification</h5>
+                    <h5 class="fw-bold fs-2">Email Notification</h5>
                     <p>We email you with the progress of your package each step of the way</p>
                   </div>
 
                   <div class="col-12 col-md-6 col-lg-4">
-                    <h5 class="fw-bold display-6">Gift Forwarding</h5>
+                    <h5 class="fw-bold fs-2">Gift Forwarding</h5>
                     <p>Relatives and friends overseas can drop off/mail your gift items to your given address  and we will forward it to you on our next shipment</p>
                   </div>
 
                   <div class="col-12 col-md-6 col-lg-4">
-                    <h5 class="fw-bold display-6">Comprehensive Tracking</h5>
+                    <h5 class="fw-bold fs-2">Comprehensive Tracking</h5>
                     <p>We keep you up-to-date with the progress of your packages from the moment it reaches our warehouse to when it is ready or pick up in Jamaica</p>
                   </div>
                 </div>
@@ -159,47 +162,84 @@
       </div>
   </section>
 
-    <!--Contact Section-->
-    <div class="container-fluid hero-container bg-white" id="contact-section">
-      <h2 class="text-center display-2 text-black pb-4">Contact Us</h2>
-      <div class="justify-content-center">
-        <address class="row text-center">
-          <p class="fw-bold">Email: shippingcompany@example.com</p>
-          <p class="fw-bold">Address: 12 Washington Lane, Kingston 8, St. Andrew</p>
-          <p class="fw-bold">Phone Number: (876) 923-0000</p>
-          <p class="fw-bold">Whatsapp: (876) 000-0000</p>
-        </address>
+  <!--How It Works Section-->
+  <section class="container-fluid bg-black pb-5" id="how-it-works-section">
+    <h2 class="text-center display-2 p-4 text-white">How It Works</h2>
+    <div class="container">
+      <div class="row gap-4 justify-content-center">
+
+        <div class="text-center text-white">
+          <h3 class="fw-bold">1. Sign Up</h3>
+          <p>Register and get your US shipping address in Florida</p>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center text-white">
+            <h3 class="fw-bold">2. Ship to Us</h3>
+            <p>Have your packages delivered to your assigned Florida address</p>
+          </div>
+        </div>
+
+              
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center text-white">
+            <h3 class="fw-bold">3. We Process</h3>
+            <p>We receive, consolidate and prepare your packages for shipping</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="text-center text-white">
+            <h3 class="fw-bold">4. Delivery</h3>
+            <p>Pick up your packages from our local office in Jamaica!</p>
+          </div>
+        </div>
+
       </div>
-      <div id="liveAlertPlaceholder">
-        <div class="alert alert-success alert-dismissible d-none" role="alert" id="messageAlert">
-          Message sent!
-          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-      </div>
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name">
-        </div>
-
-        <div class="mb-3">
-          <label for="exampleInputEmail" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail">
-        </div>
-
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <input type="text" class="form-control" id="message">
-        </div>
-
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Subscribe to our newsletter</label>
-        </div>
-        <button type="button" class="btn btn-primary" id="btn-send">Send</button>
-        
-      </form>
     </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="container-fluid hero-container bg-white" id="contact-section">
+    <h2 class="text-center display-2 text-black pb-4">Contact Us</h2>
+    <div class="justify-content-center">
+      <address class="row text-center">
+        <p class="fw-bold">Email: shippingcompany@example.com</p>
+        <p class="fw-bold">Address: 12 Washington Lane, Kingston 8, St. Andrew</p>
+        <p class="fw-bold">Phone Number: (876) 923-0000</p>
+        <p class="fw-bold">Whatsapp: (876) 000-0000</p>
+      </address>
+    </div>
+    <div id="liveAlertPlaceholder">
+      <div class="alert alert-success alert-dismissible d-none" role="alert" id="messageAlert">
+        Message sent!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleInputEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail">
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <input type="text" class="form-control" id="message">
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Subscribe to our newsletter</label>
+      </div>
+      <button type="button" class="btn btn-primary" id="btn-send">Send</button>
+      
+    </form>
+  </section>
 
       <!--Footer-->
       <footer class="bg-black text-center text-white p-4">
