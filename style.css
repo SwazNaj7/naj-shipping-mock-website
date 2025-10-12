@@ -38,6 +38,11 @@ body {
     font-size: 1.2em;
 }
 
+#nav-btn:hover {
+    color: orange;
+    background-color: black;
+}
+
 .navbar.sticky-top {
     backdrop-filter: blur(5px);
 }

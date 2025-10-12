@@ -9,9 +9,10 @@
     <title>Shipping Company</title>
 </head>
 
-<body>
+<!--Enable scrollspy; highlights each nav link when the section scrolls into view-->
+<body data-bs-spy="scroll" data-bs-target="#navbar"> 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top p-4">
+    <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top p-4" id="navbar">
         <div class="container">
         <!--Company Logo-->
           <a class="navbar-brand" href="#">
@@ -26,19 +27,19 @@
           <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav ms-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active me-3 rounded-3" aria-current="page" href="#main-section" id="nav-btn">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-3" aria-current="page" href="#services-section">Services</a>
+                  <a class="nav-link me-3 rounded-3" aria-current="page" href="#services-section" id="nav-btn">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3" aria-current="page" href="#aboutus-section">About Us</a>
+                    <a class="nav-link me-3 rounded-3" aria-current="page" href="#aboutus-section" id="nav-btn">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-3" aria-current="page" href="#how-it-works-section">How It Works</a>
+                  <a class="nav-link me-3 rounded-3" aria-current="page" href="#how-it-works-section" id="nav-btn">How It Works</a>
               </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3 mb-2" aria-current="page" href="#contact-section" id="btn-nav-contact">Contact</a>
+                    <a class="nav-link me-3 mb-2" aria-current="page" href="#contact-section" id="btn-nav-contact" id="nav-btn">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link me-3 px-4" aria-current="page" href="#" id="btn-nav-login">Login</a>
