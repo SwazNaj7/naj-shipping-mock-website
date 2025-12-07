@@ -1,4 +1,3 @@
-# frontend-assessment
 This README provides an overview of the mock website created for a fake Shipping Company. The site is deployed at:
 
 [https://naj-shipping-company.netlify.app/#main-section](https://naj-shipping-company.netlify.app/)
